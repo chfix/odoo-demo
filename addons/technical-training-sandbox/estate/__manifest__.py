@@ -1,12 +1,11 @@
 {
-    'name': "Real Estate by dosys",
+    'name': "estate",
     'version': '1.0',
     'author': "Consultant Odoo",
-    'category': 'Real Estate',
     'depends': ['base'],
     'website': 'www.dosys.ma',
     'description': """
-    Description text of the real estate App
+    Description of the real estate App
     """,
     'application': True
 
