@@ -1,7 +1,7 @@
 Odoo-demo
 ---------
 
-#The created module, is <a href="[https://www.doosys.ma](https://github.com/chfix/odoo-demo/tree/main/addons/technical-training-sandbox/estate)">HERE</a>
+#The created module, is <a href="https://github.com/chfix/odoo-demo/tree/main/addons/technical-training-sandbox/estate">HERE</a>
 Odoo demo is a test app to practice Odoo ERP developement; 
 This Project is realised for <a href="https://www.doosys.ma">Doosys</a>,
 
