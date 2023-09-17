@@ -1,8 +1,16 @@
 <?xml version="1.0"?>
 <odoo>
-    <menuitem id="menu_real_estate" name="Real Estate">
-        <menuitem id="menu_advertisements" name="Advertisements">
-            <menuitem id="menu_properties" action="action_estate_property" name="Properties"/>
-        </menuitem>
-    </menuitem>
+    <menuitem id="menu_real_estate" name="Real Estate"/>
+
+
+    <menuitem id="menu_advertisements" name="Advertisements" parent="menu_real_estate"/>
+    <menuitem id="menu_properties" action="action_estate_property" name="Properties" parent="menu_advertisements"/>
+
+
+    <menuitem id="menu_settings" name="Settings" parent="menu_real_estate"/>
+    <menuitem id="menu_properties_type" action="action_estate_property_type" name="Property Types"
+              parent="menu_settings"/>
+    <menuitem id="menu_properties_tag" action="action_estate_property_tag" name="Property Tags" parent="menu_settings"/>
+
+
 </odoo>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <!-- Define the Property offers tree view -->
+        <record id="view_estate_property_offer" model="ir.ui.view">
+            <field name="name">estate.property.offer.tree</field>
+            <field name="model">estate.property.offer</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="price"/>
+                    <field name="partner_id"/>
+                    <field name="date_deadline" force_save="1"/>
+                    <field name="validity" force_save="1"/>
+                    <field name="status"/>
+                    <button name="action_accepted" type="object" icon="fa-check"/>
+                    <button name="action_refused" type="object" icon="fa-times"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Define the view Settings here -->
+        <record id="action_estate_property_offer" model="ir.actions.act_window">
+            <field name="name">Property offers</field>
+            <field name="res_model">estate.property.offer</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_estate_property_offer"/>
+        </record>
+    </data>
+</odoo>
