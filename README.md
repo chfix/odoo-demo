@@ -37,5 +37,5 @@ Creation of the custom actions, change the fields value based on the actions.
 ## Chapter 11 - 12 [Constraints and condition] : 
 Customization of user interface based on the attributes of the models.
 
-## Chapter 11 - 12 [Inheritance]:
+## Chapter 13 [Inheritance]:
 Creation of Conditions to control the CRUD actions based on the value of the fields
